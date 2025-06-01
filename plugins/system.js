@@ -47,7 +47,7 @@ cmd({
 
         // ارسال تصویر همراه با متن
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },  // آدرس تصویر دلخواه خود را وارد کنید
+            image: { url: "https://files.catbox.moe/3gg6s5.jpg" },  // آدرس تصویر دلخواه خود را وارد کنید
             caption: text
         }, { quoted: mek });
 
@@ -90,13 +90,13 @@ cmd({
         const uptime = runtime(process.uptime());
         const startTime = new Date(Date.now() - process.uptime() * 1000);
         
-        const text = `*BEN BOT DEPLOY Available 🌝💗*\n
+        const text = `* VENGEANCE-XMD DEPLOYMENT Available 🌝💗*\n
 🚀 *Fast & Secure Bot Deployment!*\n
 *Plans:*\n
 *2$ Only* — 30 Days Warranty — Heroku\n
 *5$ Only* — 60 Days Warranty — Heroku\n
 *10$ Only* — 3 Months Warranty — Heroku\n
-> *Contact Now:* wa.me/93744215959?text=Hi%2C%20I'm%20interested%20in%20buying%20a%20bot%20deployment%20plan\n
+> *Contact Now:* wa.me/254769677305?text=Hi%2C%20I'm%20interested%20in%20buying%20a%20bot%20deployment%20plan\n
 *Payment Methods:*\n
 - Binance ✔️\n
 - Mobile Top-up ✔️\n
@@ -104,7 +104,7 @@ cmd({
 
         // ارسال تصویر همراه با متن
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },  // آدرس تصویر دلخواه خود را وارد کنید
+            image: { url: "https://files.catbox.moe/3gg6s5.jpg" },  // آدرس تصویر دلخواه خود را وارد کنید
             caption: text
         }, { quoted: mek });
 
@@ -181,7 +181,7 @@ For get gitfile ${targetPath}
 
     // ارسال پیام با لیست فایل‌ها و اندازه دایرکتوری
     await client.sendMessage(message.chat, {
-      image: { url: "https://files.catbox.moe/6vrc2s.jpg" },  // تصویر به‌عنوان پیش‌فرض
+      image: { url: "https://files.catbox.moe/3gg6s5.jpg" },  // تصویر به‌عنوان پیش‌فرض
       caption: status.trim(),
     }, { quoted: message });
 
@@ -250,7 +250,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *BEN-BOT SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> *VENGEANCE-XMD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text}, { quoted: mek });
@@ -276,7 +276,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*PINGING...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*BEN-BOT SPEED : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*VENGEANCE-XMD SPEED : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
@@ -308,7 +308,7 @@ cmd({
     const uptimeFormatted = formatRemainingTime(uptimeMs);
 
     const status = `
-*BEN BOT IS RUNNING!!*
+*VENGEANCE-XMD IS RUNNING!!*
 *BOT UPTIME INFO:*
 *╭═════════════════⊷*
 ${uptimeFormatted}
@@ -316,7 +316,7 @@ ${uptimeFormatted}
     `;
 
     await client.sendMessage(message.chat, {
-      image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+      image: { url: "https://files.catbox.moe/ktqas9.jpg" },
       caption: status.trim(),
     }, { quoted: message });
         
@@ -334,15 +334,15 @@ cmd({
   category: "system",
   filename: __filename
 }, async (client, message, args, { reply }) => {
-  const githubRepoURL = 'https://github.com/NOTHING-MD420/project-test';
+  const githubRepoURL = 'https://github.com/VENGEANCE 254/VENGEANCE-XMD ';
 
   try {
-    const res = await fetch('https://api.github.com/repos/NOTHING-MD420/project-test');
+    const res = await fetch('https://api.github.com/repos/VENGEANCE 254/VENGEANCE-XMD');
     if (!res.ok) throw new Error(`GitHub API Error: ${res.status}`);
     const repoData = await res.json();
 
     const style1 = `Hey there👋,
-You are chatting with *BEN BOT,* A powerful WhatsApp bot created by *Nothing Tech,*
+You are chatting with *VENGEANCE-XMD,* A powerful WhatsApp bot created by *VENGEANCE254,*
 Packed with smart features to elevate your WhatsApp experience like never before!
 
 *ʀᴇᴘᴏ ʟɪɴᴋ:* ${githubRepoURL}
@@ -355,7 +355,7 @@ Packed with smart features to elevate your WhatsApp experience like never before
 *❲❒❳ ᴏᴡɴᴇʀ:* ${repoData.owner?.login || "Nothing Tech"}`;
 
     await client.sendMessage(message.chat, {
-      image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+      image: { url: "https://files.catbox.moe/ktqas9.jpg" },
       caption: style1
     }, { quoted: message });
 
@@ -559,7 +559,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const startTime = new Date(Date.now() - process.uptime() * 1000);
         
         
-        const text = `_*BEN_BOT-V2 Has Been Running For ${uptime}*_`;
+        const text = `_*VENGEANCE-XMD Has Been Running For ${uptime}*_`;
 
         await conn.sendMessage(from, {
             text}, { quoted: mek });
@@ -675,7 +675,7 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     const statusMessage = `🌟 *Hello ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* BEN-BOT\n🔖 *Current Version:* ${localVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* VENGEANCE-XMD\n🔖 *Current Version:* ${localVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${changelog}`;
 
