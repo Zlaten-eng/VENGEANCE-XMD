@@ -55,7 +55,7 @@ _Email will expire after 24 hours_
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363363023106228@newsletter',
+                        newsletterJid: '120363400583993139@newsletter',
                         newsletterName: 'TempMail Service',
                         serverMessageId: 101
                     }
