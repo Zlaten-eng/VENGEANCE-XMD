@@ -140,7 +140,7 @@ async (conn, mek, m, { from, pushname: _0x1279c5, reply }) => {
         const seconds = Math.floor(uptime % 60);
         const uptimeStr = `${days}𝐝 ${hours}𝐡 ${minutes}𝐦 ${seconds}𝐬`;
 
-        let menuText = `╭══〘〘 *𝐁𝐄𝐍-𝐁𝐎𝐓* 〙〙═⊷
+        let menuText = `╭══〘〘 *VENGEANCE-XMD* 〙〙═⊷
 ┃❍ *Mᴏᴅᴇ:* ${config.MODE}
 ┃❍ *Pʀᴇғɪx:* [ ${commandPrefix} ]
 ┃❍ *Usᴇʀ:* ${_0x1279c5 || "User"}
@@ -149,7 +149,7 @@ async (conn, mek, m, { from, pushname: _0x1279c5, reply }) => {
 ┃❍ *Uᴘᴛɪᴍᴇ:* ${uptimeStr}
 ┃❍ *Tɪᴍᴇ Nᴏᴡ:* ${time}
 ┃❍ *Dᴀᴛᴇ Tᴏᴅᴀʏ:* ${date}
-┃❍ *Tɪᴍᴇ Zᴏɴᴇ:* Asia/Kabul
+┃❍ *Tɪᴍᴇ Zᴏɴᴇ:* Asia/kabul
 ┃❍ *Sᴇʀᴠᴇʀ Rᴀᴍ:* ${usedMem.toFixed(2)} GB / ${totalMem.toFixed(2)} GB
 ╰═════════════════⊷\n\n`;
 
@@ -172,7 +172,7 @@ async (conn, mek, m, { from, pushname: _0x1279c5, reply }) => {
         }
 
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/6vrc2s.jpg` },
+            image: { url: `https://files.catbox.moe/vg9llc.jpg` },
             caption: menuText.trim()
         }, { quoted: mek });
 
@@ -210,7 +210,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/6vrc2s.jpg` },
+                image: { url: `https://files.catbox.moe/vg9llc.jpg` },
                 caption: dec,
             },
             { quoted: mek }
@@ -250,7 +250,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/6vrc2s.jpg` },
+                image: { url: `https://files.catbox.moe/vg9llc.jpg` },
                 caption: dec,
             },
             { quoted: mek }
@@ -290,7 +290,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/6vrc2s.jpg` },
+                image: { url: `https://files.catbox.moe/vg9llc.jpg` },
                 caption: dec,
             },
             { quoted: mek }
@@ -330,7 +330,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/6vrc2s.jpg` },
+                image: { url: `https://files.catbox.moe/vg9llc.jpg` },
                 caption: dec,
             },
             { quoted: mek }
