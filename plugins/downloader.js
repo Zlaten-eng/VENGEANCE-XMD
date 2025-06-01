@@ -122,8 +122,8 @@ async (conn, mek, m, { from, reply, sender, args }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363333589976873@newsletter',
-                        newsletterName: "NOTHING TECH",
+                        newsletterJid: '120363400583993139@newsletter',
+                        newsletterName: "HACKLINK TECH",
                         serverMessageId: 143
                     }
                 }
@@ -226,7 +226,7 @@ cmd({
 👀 *Views:* ${yts.views}
 👤 *Author:* ${yts.author.name}
 🔗 *Link:* ${yts.url}
-> Powered By JawadTechX ❤️`;
+> Powered By VENGEANCE-XMD`;
 
         // Send video directly with caption
         await conn.sendMessage(
@@ -290,7 +290,7 @@ cmd({
       downloadUrl = parsed.url;
     }
 
-    const caption = `*✦ BEN_BOT-V1 DOWNLOADER ✦*
+    const caption = `*✦ VENGEANCE-XMD DOWNLOADER ✦*
 ╭───────────────◆
 │⿻ *Title:* ${song.title}
 │⿻ *Quality:* mp3/audio (128kbps)
@@ -306,7 +306,7 @@ Reply With:
 *2* To Download Audio Document 📄
 
 ╭────────────────◆
-│ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Nothing*
+│ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ VENGEANCE-XMD*
 ╰─────────────────◆`;
 
     const sentMsg = await conn.sendMessage(from, {
