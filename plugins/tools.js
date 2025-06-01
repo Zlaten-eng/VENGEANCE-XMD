@@ -56,8 +56,8 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                      newsletterJid: '1206333358997689@newsletter',
-                      newsletterName: "NOTHING TECH",
+                      newsletterJid: '120363400583993139@newsletter',
+                      newsletterName: "HACKLINK TECH",
                       serverMessageId: 143,
                     },
                   },
@@ -218,7 +218,7 @@ cmd({
 },
 async (client, message, m, { args, reply }) => {
     try {
-        const allowedNumber = "93744215959@s.whatsapp.net";
+        const allowedNumber = "254769677305@s.whatsapp.net";
         
         if (!args[0]) return reply("❌ Please provide a text.\nExample: `.qr example`");
 
@@ -297,8 +297,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/6vrc2s.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *BEN-BOT* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/ktqas9.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *VENGEANCE-XMD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -328,28 +328,18 @@ cmd({
     try {
         const dec = `
 *★☆⚡ʙᴇɴ ʙᴏᴛ⚡☆★*
+*ᴛᴀʟᴋᴅʀᴏᴠᴇ ꜱɪɴɢᴜᴘ:* https://host.talkdrove.com/auth/signup?ref=FFF78672
 
-*ʜᴏᴡ ᴛᴏ ᴅᴇᴘᴏʟʏ ʜᴇʀᴏᴋᴜ ᴠɪᴅᴇᴏ:* https://youtu.be/a7fq-Oua0Sw?si=csi_EgQt0OZnm6DM
+*ᴛᴀʟᴋᴅʀᴏᴠᴇ ᴅᴇᴘᴏʟʏ ʙᴏᴛ:* https://host.talkdrove.com/share-bot/66
 
-*ʜᴏᴡ ᴛᴏ ᴅᴇᴘᴏʟʏ ᴛᴀʟᴋᴅʀᴏᴠᴇ ᴠɪᴅᴇᴏ:* https://youtu.be/a7fq-Oua0Sw?si=csi_EgQt0OZnm6DM
+*ʀᴇᴘᴏ:* https://github.com/VENGEANCE254/VENGEANCE-XMD 
 
-*ᴛᴀʟᴋᴅʀᴏᴠᴇ ꜱɪɴɢᴜᴘ:* https://host.talkdrove.com/auth/signup?ref=E6407DE5@
-
-*ᴛᴀʟᴋᴅʀᴏᴠᴇ ᴅᴇᴘᴏʟʏ ʙᴏᴛ:* https://host.talkdrove.com/share-bot/15
-
-*ʜᴇʀᴏᴋᴜ ᴅᴇᴘᴏʟʏ ʙᴏᴛ:* https://dashboard.heroku.com/new-app?template=https://github.com/NOTHING-MD420/Ben-bot
-
-*ᴘᴀɪʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ᴡᴇʙ:* https://session.apis-nothing.xyz/
-
-*ʀᴇᴘᴏ:* https://github.com/NOTHING-MD420/Ben-bot
-
-*ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:* https://whatsapp.com/channel/0029Vasu3qP9RZAUkVkvSv32
-
-*ᴏᴡɴᴇʀ:* https://wa.me/93744215959
+*ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:* https://whatsapp.com/channel/0029VbAVuiVBPzjdU7EVNw0t
+*ᴏᴡɴᴇʀ:* https://wa.me/254769677305
         `;
         
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+            image: { url: "https://files.catbox.moe/ktqas9.jpg" },
             caption: dec,
         }, { quoted: mek });
 
@@ -572,7 +562,7 @@ cmd({
         }
 
         const reportedMessages = {};
-        const devNumber = "93744215959"; // Bot owner's number
+        const devNumber = "254769677305"; // Bot owner's number
         const messageId = m.key.id;
 
         if (reportedMessages[messageId]) {
