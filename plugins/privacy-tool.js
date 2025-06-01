@@ -12,8 +12,8 @@ function getNewsletterContext(senderJid) {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363333589976873@newsletter',
-            newsletterName: "NOTHING TECH",
+            newsletterJid: '120363400583993139@newsletter',
+            newsletterName: "HACKLINK TECH",
             serverMessageId: 143
         }
     };
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/6vrc2s.jpg` },
+                image: { url: `https://files.catbox.moe/4etjoq.jpg` },
                 caption: privacyMenu,
                 contextInfo: getNewsletterContext(m.sender)
             },
