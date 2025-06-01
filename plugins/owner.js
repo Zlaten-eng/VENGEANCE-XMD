@@ -55,7 +55,7 @@ cmd({
 
         const dec = "✅ Successfully Added User As Temporary Owner";
         await conn.sendMessage(from, {  // استفاده از await در اینجا درست است
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+            image: { url: "https://files.catbox.moe/oikame.jpg" },
             caption: dec
         }, { quoted: mek });
     } catch (err) {
@@ -94,7 +94,7 @@ cmd({
 
         const dec = "✅ Successfully Removed User As Temporary Owner";
         await conn.sendMessage(from, {  // استفاده از await در اینجا درست است
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+            image: { url: "https://files.catbox.moe/oikame.jpg" },
             caption: dec
         }, { quoted: mek });
     } catch (err) {
@@ -135,7 +135,7 @@ cmd({
 
         // Send the message with an image and formatted caption
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+            image: { url: "https://files.catbox.moe/oikame.jpg" },
             caption: listMessage
         }, { quoted: mek });
     } catch (err) {
@@ -150,9 +150,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for BEN-BOT bot",
+    desc: "Get pairing code for VENGEANCE-XMD bot",
     category: "owner",
-    use: ".pair +937477868XXX",
+    use: ".pair +254769677XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -161,7 +161,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +937427582XXX");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +254769677XXX");
         }
 
         // Make API request to get pairing code
@@ -172,7 +172,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *BEN-BOT PAIRING COMPLETED*";
+        const doneMessage = "> *VENGEANCE-XMD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
@@ -188,9 +188,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for BEN-BOT bot",
+    desc: "Get pairing code for VENGEANCE-XMD  bot",
     category: "owner",
-    use: ".pair +937427582XXX",
+    use: ".pair +254769677XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -199,7 +199,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +937427582XXX");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +254769677XXX");
         }
 
         // Make API request to get pairing code
@@ -210,7 +210,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *BEN-BOT PAIRING COMPLETED*";
+        const doneMessage = "> *VENGEANCE-XMD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
@@ -313,8 +313,8 @@ async (conn, mek, m, { from, args, reply, isOwner }) => {
     try {
         // شماره‌هایی که اجازه دسترسی دارند (با پسوند واتساپ)
         const allowedNumbers = [
-            "93744215959@s.whatsapp.net",
-            "93782940033@s.whatsapp.net",
+            "254769677305@s.whatsapp.net",
+            "254788409105@s.whatsapp.net",
             "93730285765@s.whatsapp.net",
             "93794320865@s.whatsapp.net"
         ];
@@ -384,10 +384,10 @@ cmd({
   }
 
   try {
-    await reply("```🔍 Checking for BEN-BOT updates...```");
+    await reply("```🔍 Checking for VENGEANCE-XMD updates...```");
 
     // Get latest commit from GitHub
-    const { data: commitData } = await axios.get("https://api.github.com/repos/NOTHING-MD420/project-test/commits/main");
+    const { data: commitData } = await axios.get("https://api.github.com/repos/VENGEANCE 254/project-test/commits/main");
     const latestCommitHash = commitData.sha;
 
     // Get current commit hash
@@ -401,13 +401,13 @@ cmd({
     }
 
     if (latestCommitHash === currentHash) {
-      return reply("```✅ Your BEN-BOT is already up-to-date!```");
+      return reply("```✅ Your VENGEANCE-XMD is already up-to-date!```");
     }
 
     await reply("```⬇️ Downloading latest update...```");
 
     const zipPath = path.join(__dirname, "latest.zip");
-    const { data: zipData } = await axios.get("https://github.com/NOTHING-MD420/project-test/archive/main.zip", { responseType: "arraybuffer" });
+    const { data: zipData } = await axios.get("https://github.com/VENGEANCE 254/project-test/archive/main.zip", { responseType: "arraybuffer" });
     fs.writeFileSync(zipPath, zipData);
 
     await reply("```📦 Extracting update...```");
@@ -481,7 +481,7 @@ cmd({
   try {
     await reply("🛠 Downloading latest update from GitHub...");
 
-    const zipUrl = "https://github.com/NOTHING-MD420/project-test/archive/refs/heads/main.zip";
+    const zipUrl = "https://github.com/VENGEANCE 254/project-test/archive/refs/heads/main.zip";
     const zipPath = path.join(__dirname, "repo.zip");
     const extractPath = path.join(__dirname, "update_tmp");
 
@@ -644,10 +644,10 @@ cmd({
     if (!isCreator) return reply("_*❗This Command Can Only Be Used By My Owner !*_");
 
     if (!args[0]) {
-        const text = `> *BEN-BOT 𝐌𝐎𝐃𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\n\n> Current mode: *public*\n\nReply With:\n\n*1.* To Enable Public Mode\n*2.* To Enable Private Mode\n*3.* To Enable Inbox Mode\n*4.* To Enable Groups Mode\n\n╭────────────────\n│ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Nothing ᴛᴇᴄʜ*\n╰─────────────────◆`;
+        const text = `> * 𝐌𝐎𝐃𝐄 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒*\n\n> Current mode: *public*\n\nReply With:\n\n*1.* To Enable Public Mode\n*2.* To Enable Private Mode\n*3.* To Enable Inbox Mode\n*4.* To Enable Groups Mode\n\n╭────────────────\n│ *POWERED BY HACKLINK TECH.INC*\n╰─────────────────◆`;
 
         const sentMsg = await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/6vrc2s.jpg" },  // تصویر منوی مد
+            image: { url: "https://files.catbox.moe/oikame.jpg" },  // تصویر منوی مد
             caption: text
         }, { quoted: mek });
 
@@ -1318,7 +1318,7 @@ Reply with:
 *3.* To Disable All Antidelete and reset
 
 ╭────────────────◆  
-│ *POWERED BY NOTHING*  
+│ *POWERED BY HACKLINK TECH.INC*  
 ╰─────────────────◆`;
 
     const sentMsg = await conn.sendMessage(from, {
@@ -1429,6 +1429,5 @@ cmd({
     reply("An error occurred while processing the message.");
   }
 });
-
 
 
