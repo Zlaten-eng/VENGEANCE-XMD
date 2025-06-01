@@ -98,10 +98,10 @@ cmd({
         ? "Groups Only"
         : "Disabled";
 
-    const text = `> *BEN-BOT ANTIVIEWONCE SETTINGS*\n\n> Current Mode: *${currentMode}*\n\nReply with:\n\n*1.* Enable AntiViewOnce => All Chats\n*2.* Enable AntiViewOnce => Private Only\n*3.* Enable AntiViewOnce => Groups Only\n*4.* Disable AntiViewOnce\n\n╭────────────────\n│ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Nothing ᴛᴇᴄʜ*\n╰─────────────────◆`;
+    const text = `> *VENGEANCEe-XMD ANTIVIEWONCE SETTINGS*\n\n> Current Mode: *${currentMode}*\n\nReply with:\n\n*1.* Enable AntiViewOnce => All Chats\n*2.* Enable AntiViewOnce => Private Only\n*3.* Enable AntiViewOnce => Groups Only\n*4.* Disable AntiViewOnce\n\n╭────────────────\n│ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ HACKLINK ᴛᴇᴄʜ*\n╰─────────────────◆`;
 
     const sentMsg = await conn.sendMessage(from, {
-      image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+      image: { url: "https://files.catbox.moe/ktqas9.jpg" },
       caption: text
     }, { quoted: mek });
 
