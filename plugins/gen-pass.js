@@ -29,7 +29,7 @@ cmd({
       const password = generatePassword(12);
 
       const imageMsg = (await conn.generateWAMessageContent({
-        image: { url: "https://files.catbox.moe/y9ysty.jpg" }
+        image: { url: "https://files.catbox.moe/vg9llc.jpg" }
       }, { upload: conn.waUploadToServer })).imageMessage;
 
       cards.push({
