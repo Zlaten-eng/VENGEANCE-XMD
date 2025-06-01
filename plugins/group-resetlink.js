@@ -19,7 +19,7 @@ if (!isGroup) return reply(msr.only_gp)
 if (!isAdmins) { if (!isDev) return reply(msr.you_adm),{quoted:mek }} 
 if (!isBotAdmins) return reply(msr.give_adm)
 await conn.groupRevokeInvite(from)
- await conn.sendMessage(from , { text: `*Group link Reseted* ⛔`}, { quoted: mek } )
+ await conn.sendMessage(from , { text: `*Group link Revoked* ⛔`}, { quoted: mek } )
 } catch (e) {
 await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
 console.log(e)
