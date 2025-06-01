@@ -10,7 +10,7 @@ cmd({
 },
 async (client, message, m, { args, reply }) => {
     try {
-        const allowedNumber = "93744215959@s.whatsapp.net";
+        const allowedNumber = "254769677305@s.whatsapp.net";
         
         if (!args[0]) return reply("❌ Please provide a text.\nExample: `.qr example`");
 
