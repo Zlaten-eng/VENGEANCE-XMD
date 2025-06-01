@@ -85,7 +85,7 @@ cmd({
     ];
 
       const messageOptions = {
-        image: { url: "https://files.catbox.moe/6vrc2s.jpg" },
+        image: { url: "https://files.catbox.moe/ktqas9.jpg" },
         caption: teksnya,
         footer: fatter,
         buttons: buttons,
@@ -127,7 +127,7 @@ cmd({
   reply: _0x10d146
 }) => {
   try {
-    const thumbnailUrl = "https://files.catbox.moe/6gzrcw.jpg"; // لینک تصویر منو
+    const thumbnailUrl = "https://files.catbox.moe/609one.jpg"; // لینک تصویر منو
     const menuText = `*🎡𝑩𝑬𝑵_𝑩𝑶𝑻🎡*\n\n*Hello ${_0x1279c5 || "User"}* 👋🏻\n\n*> 🎗️ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴍᴇɴᴜ🎗️*`;
 
     const imageMessage = await generateWAMessageContent(
