@@ -1,4 +1,4 @@
-// code by ⿻ ⌜ 𝐊𝐇𝐀𝐍 ⌟⿻⃮͛🇵🇰𖤐
+// code by ⿻ ⌜ VENGEANCE-XMD𖤐
 
 const axios = require("axios");
 const config = require('../config');
@@ -31,14 +31,14 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By JawadTechX*",
+      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By VENGEANCE-XMD*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363354023106228@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '120363400583993139@newsletter',
+          newsletterName: "VENGEANCE-XMD",
           serverMessageId: 143,
         },
       },
