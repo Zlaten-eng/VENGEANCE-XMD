@@ -35,7 +35,6 @@ const {
   const { sms, downloadMediaMessage, AntiDelete } = require('./lib')
   const FileType = require('file-type');
   const axios = require('axios')
-  const { File } = require('megajs')
   const { fromBuffer } = require('file-type')
   const bodyparser = require('body-parser')
   const os = require('os')
